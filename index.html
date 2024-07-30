@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+	<!-- CSS Bootstrap Link -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+	<!-- Google Font Links -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+	<!-- CSS External Link -->
+	<link rel="stylesheet" type="text/css" href="./index.css">
+	<title>Capstone1: My Portfolio</title>
+</head>
+<body>
+
+	<!--=============== Start of Navbar ============-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+        <div class="container">
+          <a class="navbar-brand" href="#">MJDC</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="#landing">Home</a>
+              <a class="nav-link" href="#projects">Projects</a>
+              <a class="nav-link" href="#tools">Tools</a>
+              <a class="nav-link" href="#contact">Contact</a>
+          </div>
+        </div>
+    </nav>
+      <!--============== End of NAVBAR ============-->
+
+      <!--=========== Start of LANDING/HOME ==============-->
+    <div class="container" id="landing">
+    <div class="row justify-content-center mt-5" id="profile">
+        <div class="col-md-6 p-5 my-4">
+            <img src="./images/prof.jpg" id="img-prof">
+        </div>
+        <div class="col-md-12 p-3 justify-content-center">
+            <h3 id="name">MARK JULIUS D. CABAUATAN</h3>
+            <h4 id="title">FULL STACK WEB DEVELOPER</h4>
+            <p id="intro">Mark Julius Cabauatan, 27 years old. Graduated at STI College - Tuguegarao as a Bachelor of Science in Information Technology. A harworker and want to learn new things as programmer. I want programming as my new career path. Thats is why I'm here in Zuitt Free Coding Bootcamp.</p>
+        </div>
+    </div>
+    </div>
+    <!--=============== End of LANDING/HOME ======================-->
+
+    
+    <!--============ Start of Projects ===========-->
+    <div class="container pt-5" id="projects">
+        <div class="row p-3 m-3">
+            <h2 id="title-proj">My Projects</h2>
+            <div class="col-md-4 d-flex">
+                <div class="card h-100">
+                    <img src="https://oxforddigital.co.uk/wp-content/uploads/Screenshot-March-2018-Squarespace-Website-Homepage.png" class="card-img-top" alt="Card Image">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">My Website</h5>
+                        <blockquote class="blockquote mb-0">
+                          <p class="card-text">A website is essentially a collection of interconnected web pages and related content, all identified by a shared domain name and published on at least one web server.</p>
+                          <footer class="blockquote-footer my-5">Last updated 30mins ago</footer>
+                        </blockquote>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex">
+                <div class="card h-100">
+                    <img src="https://astig.ph/wp-content/uploads/2017/05/Ragnarok-online-philippines-registration-page-captuted-from-official-website-1.jpg" class="card-img-top" alt="Card Image">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Ragnarok</h5>          
+                        <blockquote class="blockquote mb-0 ">
+                          <p class="card-text">There are numerous private servers available for playing Ragnarok Online. These servers offer unique gameplay experiences and custom features. </p>
+                          <footer class="blockquote-footer my-5">Last updated 20mins ago</footer>
+                        </blockquote>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 d-flex">
+                <div class="card h-100">
+                    <img src="https://cdn.ourcodeworld.com/public-media/gallery/gallery-599fe01f68bd9.jpg" class="card-img-top" alt="Card Image">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Fitness Website</h5>                     
+                        <blockquote class="blockquote mb-0">
+                          <p class="card-text ">A fitness website can provide valuable content and resources to help them achieve their health and fitness goals.</p>
+                          <footer class="blockquote-footer my-5">Last updated 10mins ago</footer>
+                        </blockquote>
+ 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--============== End of Projects ===========-->
+
+
+    <!--========= Start of Tools ===========-->
+    <div id="tools" class="container d-flex flex-column">
+        <h2 class="text-center p-3 m-3 mt-5 mb-5" id="tools-title">Tools</h2>
+        <div class="d-flex flex-wrap justify-content-center">
+            <img src="./images/sublime.png" class="img-fluid mx-2 mb-2" id="tools-img" />
+            <img src="./images/git-img.png" class="img-fluid mx-2 mb-2" id="tools-img" />
+            <img src="./images/html-logo.png"class="img-fluid mx-2 mb-2" id="tools-img"  />
+            <img src="./images/css-logo.png" class="img-fluid mx-2 mb-2" id="tools-img"  />
+        </div>
+    </div>
+    <!--=========== End of Tools ============-->
+
+
+    <!--======= Start of Contacts  ===============-->
+    <div id="contact" class="container my-5 p-5">
+        <h2 class="text-center p-3 m-3 mt-5" id="title-contact">Contact Section</h2>
+        <div class="text-center my-5">
+            <h4 id="contact-title">Contact</h4>
+            <div class="d-flex justify-content-center">
+                <a href="https://www.facebook.com/masterjulsz/" class="mx-3" target="_blank"><i class="fab fa-facebook fa-2x"></i></a>
+                <a href="https://www.linkedin.com/in/mark-julius-cabauatan-1488a4187/" class="mx-3" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
+                <a href="https://gitlab.com/Winspade21" class="mx-3" target="_blank"><i class="fab fa-github fa-2x"></i></a>
+                <a href="https://discord.com/channels/1858322414826815508" class="mx-3" target="_blank"><i class="fa-brands fa-discord fa-2x"></i></a>
+            </div>
+        </div>
+        <div class="row mt-3 d-flex justify-content-center">
+            <div class="col-12 col-md-8 col-xl-4">
+            <h4 class="text-center">Message Us!</h2>
+              <form id="form-col" class="p-4 m-4 ">
+                <div class="mb-3">
+                  <label for="name" class="form-label">Name</label>
+                  <input type="text" class="form-control" id="name" required>
+                </div>
+                <div class="mb-3">
+                  <label for="email" class="form-label">Email Address</label>
+                  <input type="email" class="form-control" id="email" required>
+                </div>
+                <div class="mb-3">
+                  <label for="message" class="form-label">Message</label>
+                  <textarea class="form-control" id="message" rows="3" required></textarea>
+                </div>
+                <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#modalDiv">Send Email</button>
+              </form>
+              
+            </div>
+        </div>
+        <div class="modal text-dark" tabindex="-1" id="modalDiv">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title">Thank you for contacting us!</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <p>Message Successfully Sent</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+        </div>
+    </div>
+    <!--========== End of Contacts  ==========-->
+    
+    <footer class="d-flex justify-content-center d-grid gap-3" id="footer">
+        <div>All right</div>
+        <div>|</div>
+        <div>Reserved</div>
+        <div>|</div>
+        <div>Copyright &copy; 2024</div>
+    </footer>
+
+<!-- Bootstrap JS Bundle -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
